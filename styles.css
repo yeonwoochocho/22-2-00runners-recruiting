@@ -1,0 +1,122 @@
+body{
+  font-family: 'Pretendard', sans-serif !important;
+}
+
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    padding-left: 10px;
+
+    font-size: 14px;
+}
+
+.section-break{
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+
+.about-title{
+    font-weight: 600;
+  }
+  
+  .caption{
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .about-description{
+    margin-top: -5px;
+    color: #999;
+  }
+  
+
+
+
+  
+
+  .scrolling-wrapper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+   }
+  
+  .course-card{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background-color: #1c1c1c;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  .crs-date{
+    margin-bottom: -3px;
+  }
+
+  .crs-length{
+
+  }
+
+  .playlist-box{
+    text-align: center;
+    padding: 10px;
+    margin: 5px 20px;
+  }
+
+  .playlist-img{
+    margin: 15px;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .courses-img{
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .about-title{
+      font-size: 22px;
+    }
+    .about-description{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .about-title{
+      font-size: 25px;
+    }
+    .about-description{
+      font-size: 19px;
+    }
+    #video-area{
+        width: 80%
+    }
+  }
+  
+  @media screen and (min-width: 993px) {
+    .about-title{
+      font-size: 30px;
+    }
+    .about-description{
+      font-size: 20px;
+    }
+    #video-area{
+        width: 60%
+    }
+  }
+
+  .title-overlay{
+          width: 100%;
+}
